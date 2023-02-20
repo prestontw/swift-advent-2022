@@ -7,5 +7,6 @@ final class swift_advent_2022Tests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(swift_advent_2022().text, "Hello, World!")
+        XCTAssertEqual(parseLine("test message"), ["test", "message"])
     }
 }
